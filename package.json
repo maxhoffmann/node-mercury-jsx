@@ -1,0 +1,33 @@
+{
+  "name": "node-mercury-jsx",
+  "version": "1.0.0",
+  "description": "transparently require() mercury jsx from node",
+  "main": "index.js",
+  "dependencies": {
+    "jasmine-node": "^1.12.0",
+    "mercury": "^6.0.1",
+    "mercury-jsx": "^0.1.3"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5",
+    "mercury": "^6.0.1"
+  },
+  "scripts": {
+    "test": "jasmine-node node-mercury-jsx.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxhoffmann/node-mercury-jsx"
+  },
+  "keywords": [
+    "mercury",
+    "jsx",
+    "node"
+  ],
+  "author": "Maximilian Hoffmann <account@maximilianhoffmann.com> (http://maximilianhoffmann.com/)",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/maxhoffmann/node-mercury-jsx/issues"
+  },
+  "homepage": "https://github.com/maxhoffmann/node-mercury-jsx"
+}
